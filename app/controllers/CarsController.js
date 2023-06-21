@@ -15,7 +15,7 @@ function _drawCars() {
 
 
 export class CarsController {
-  constructor () {
+  constructor() {
     // SECTION page load
     console.log('Cars Controller is loaded, here are the cars', AppState.cars);
     _drawCars()
